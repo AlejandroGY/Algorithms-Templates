@@ -1,3 +1,4 @@
+//Prueba de primalidad de un número con Miller-Rabin
 #include <bits/stdc++.h>
 
 long long power(long long a, long long n, long long m) {
