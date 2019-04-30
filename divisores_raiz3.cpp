@@ -1,3 +1,4 @@
+//Calcula los divisores de un número en O(n^1/3)
 #include <bits/stdc++.h>
 
 int main( ) {
