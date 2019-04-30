@@ -24,7 +24,6 @@ bool MR(long long d, long long n) {
       if (x == 1) return false;
       if (x == n - 1) return true;
    }
-
    return false;
 }
 
