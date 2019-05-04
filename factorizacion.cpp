@@ -1,4 +1,4 @@
-//Factoriza n <= 10^7
+//Factoriza n <= 10^7 en log(n)
 #include <bits/stdc++.h>
 
 using ll = long long;
