@@ -40,7 +40,7 @@ void update(ll node, ll ini, ll fin, ll idx, ll val) {
 
 ll query(ll node, ll ini, ll fin, ll left, ll right) {
    if (right < ini || fin < left) {
-      return INT_MAX;
+      return INT_MAX; //Si es para maximo, se debe cambiar a INT_MIN
    }
    if (left <= ini && fin <= right) {
       return tree[node];
